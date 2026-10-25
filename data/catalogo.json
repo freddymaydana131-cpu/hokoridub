@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "voices": [
+    {
+      "id": "v-0001",
+      "name": "Valeria López",
+      "stage_name": "Vale",
+      "contact": "valeria@example.com",
+      "languages": [
+        "es",
+        "en"
+      ],
+      "profile": {
+        "register": "mezzosoprano",
+        "midi_min": 55,
+        "midi_max": 79,
+        "timbres": [
+          "dulce",
+          "calido"
+        ],
+        "age_min": 18,
+        "age_max": 32,
+        "accents": [
+          "neutro",
+          "colombiano"
+        ]
+      },
+      "notes": "Especializada en animación y audiolibros.",
+      "status": "activa",
+      "created_at": "2026-09-01T09:00:00Z",
+      "updated_at": "2026-10-02T16:30:00Z",
+      "archived_at": null,
+      "recordings": [
+        {
+          "id": "r-0001",
+          "character_id": "c-0001",
+          "kind": "audicion",
+          "recorded_at": "2026-09-15T10:00:00Z",
+          "link": "https://example.com/audios/vale-maya.mp3",
+          "duration_seconds": 42,
+          "rating": 5,
+          "comment": "Muy buen manejo del registro infantil.",
+          "created_at": "2026-09-15T10:05:00Z",
+          "updated_at": "2026-09-15T10:05:00Z"
+        },
+        {
+          "id": "r-0002",
+          "character_id": "c-0002",
+          "kind": "demo",
+          "recorded_at": "2026-10-02T16:20:00Z",
+          "link": "https://example.com/audios/vale-kai.mp3",
+          "duration_seconds": 65,
+          "rating": 4,
+          "comment": "Funciona bien en el registro medio; revisar agudos.",
+          "created_at": "2026-10-02T16:30:00Z",
+          "updated_at": "2026-10-02T16:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "v-0002",
+      "name": "Mateo Ríos",
+      "stage_name": null,
+      "contact": "mateo@example.com",
+      "languages": [
+        "es"
+      ],
+      "profile": {
+        "register": "tenor",
+        "midi_min": 48,
+        "midi_max": 72,
+        "timbres": [
+          "brillante",
+          "metalico"
+        ],
+        "age_min": 25,
+        "age_max": 40,
+        "accents": [
+          "rioplatense"
+        ]
+      },
+      "notes": "Experiencia en videojuegos y doblaje de acción.",
+      "status": "activa",
+      "created_at": "2026-09-05T11:00:00Z",
+      "updated_at": "2026-10-05T12:00:00Z",
+      "archived_at": null,
+      "recordings": [
+        {
+          "id": "r-0003",
+          "character_id": "c-0002",
+          "kind": "demo",
+          "recorded_at": "2026-10-05T11:40:00Z",
+          "link": "https://example.com/audios/mateo-kai.mp3",
+          "duration_seconds": 58,
+          "rating": 5,
+          "comment": "Timbre y actitud muy cercanos al personaje.",
+          "created_at": "2026-10-05T12:00:00Z",
+          "updated_at": "2026-10-05T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "v-0003",
+      "name": "Sofía Núñez",
+      "stage_name": "Sofi",
+      "contact": "sofia@example.com",
+      "languages": [
+        "es",
+        "en"
+      ],
+      "profile": {
+        "register": "soprano",
+        "midi_min": 60,
+        "midi_max": 84,
+        "timbres": [
+          "infantil",
+          "dulce"
+        ],
+        "age_min": 8,
+        "age_max": 14,
+        "accents": [
+          "neutro"
+        ]
+      },
+      "notes": "Estudiante de la academia; disponibilidad limitada por horario escolar.",
+      "status": "en_pausa",
+      "created_at": "2026-09-10T08:30:00Z",
+      "updated_at": "2026-10-10T09:00:00Z",
+      "archived_at": null,
+      "recordings": [
+        {
+          "id": "r-0004",
+          "character_id": "c-0001",
+          "kind": "practica",
+          "recorded_at": "2026-10-10T08:50:00Z",
+          "link": null,
+          "duration_seconds": 30,
+          "rating": 3,
+          "comment": "Práctica en clase; falta seguridad en las primeras líneas.",
+          "created_at": "2026-10-10T09:00:00Z",
+          "updated_at": "2026-10-10T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "v-0004",
+      "name": "Diego Salas",
+      "stage_name": null,
+      "contact": null,
+      "languages": [
+        "es"
+      ],
+      "profile": {
+        "register": "baritono",
+        "midi_min": 45,
+        "midi_max": 69,
+        "timbres": [
+          "rasposo",
+          "opaco"
+        ],
+        "age_min": 35,
+        "age_max": 55,
+        "accents": [
+          "neutro"
+        ]
+      },
+      "notes": "Egresado; se conserva su histórico de pruebas.",
+      "status": "egresada",
+      "created_at": "2026-08-20T10:00:00Z",
+      "updated_at": "2026-10-01T10:00:00Z",
+      "archived_at": "2026-10-01T10:00:00Z",
+      "recordings": [
+        {
+          "id": "r-0005",
+          "character_id": "c-0003",
+          "kind": "demo",
+          "recorded_at": "2026-08-28T15:00:00Z",
+          "link": "https://example.com/audios/diego-narrador.mp3",
+          "duration_seconds": 120,
+          "rating": 4,
+          "comment": "Lectura pausada y clara para audiolibro.",
+          "created_at": "2026-08-28T15:10:00Z",
+          "updated_at": "2026-08-28T15:10:00Z"
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "c-0001",
+      "name": "Maya",
+      "work": "Guardianes del Bosque",
+      "kind": "animacion",
+      "description": "Niña curiosa de diez años que descubre que puede hablar con los árboles. Voz luminosa, con energía y capacidad de asombro.",
+      "requirements": {
+        "register": "soprano",
+        "timbres": [
+          "infantil",
+          "dulce"
+        ],
+        "age_min": 8,
+        "age_max": 14,
+        "difficulty": 4
+      },
+      "created_at": "2026-09-02T09:00:00Z",
+      "updated_at": "2026-09-02T09:00:00Z",
+      "archived_at": null
+    },
+    {
+      "id": "c-0002",
+      "name": "Kai",
+      "work": "Neón 2099",
+      "kind": "videojuego",
+      "description": "Hacker de veinticinco años en una ciudad distópica. Tono seguro, irónico y con filo metálico en los momentos de tensión.",
+      "requirements": {
+        "register": "tenor",
+        "timbres": [
+          "brillante",
+          "metalico"
+        ],
+        "age_min": 20,
+        "age_max": 35,
+        "difficulty": 5
+      },
+      "created_at": "2026-09-08T14:00:00Z",
+      "updated_at": "2026-09-08T14:00:00Z",
+      "archived_at": null
+    },
+    {
+      "id": "c-0003",
+      "name": "Narrador",
+      "work": "Cuentos de la Abuela",
+      "kind": "audiolibro",
+      "description": "Voz adulta que conduce relatos breves para público familiar. Debe sostener un ritmo pausado y modular sin perder calidez.",
+      "requirements": {
+        "register": null,
+        "timbres": [
+          "calido",
+          "opaco"
+        ],
+        "age_min": 30,
+        "age_max": 60,
+        "difficulty": 2
+      },
+      "created_at": "2026-09-12T10:00:00Z",
+      "updated_at": "2026-09-12T10:00:00Z",
+      "archived_at": null
+    }
+  ]
+}
